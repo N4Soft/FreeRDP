@@ -478,8 +478,8 @@ BOOL xf_keyboard_handle_special_keys(xfContext* xfc, KeySym keysym)
 			if (mod.Ctrl && mod.Alt)
 			{
 				/* Ctrl-Alt-Enter: toggle full screen */
-				xf_toggle_fullscreen(xfc);
-				return TRUE;
+				//xf_toggle_fullscreen(xfc);
+				//return TRUE;
 			}
 		}
 	}
